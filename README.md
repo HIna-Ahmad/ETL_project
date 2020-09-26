@@ -7,7 +7,10 @@ Two tables were extracted from the [basketball-reference](http://www.basketball-
 
 <img src="Resources/contract_data.png" width="400">
 <img src="Resources/player_salary_columns.png" width="400">
-
+<img src="Resources/player_stats_columns.png" width="400">
+<img src="Resources/pgAdmin_salary.png" width="400">
+<img src="Resources/pgAdmin_stats.png" width="400">
+<img src="Resources/pgAdmin_final_table.png" width="400">
 
 ## Transformation: ##
 The nba_salaries2019.csv file was pulled into a dataframe ("contract_data") and all columns were removed except: Player, Team, and Salary (see csv file "Salary_clean" in the Resources folder). We pulled the player_stats.csv file into a dataframe ("player_data") (see csv file "stat2019_clean" in the Resources folder). 
