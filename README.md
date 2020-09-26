@@ -28,4 +28,5 @@ Our group was interested in determining efficiency of players, so using the "nba
 ## Load: ##
 
 After cleaning and transforming our merged data in Pandas, we compiled all new data compiled ("Average Cost per Point" and "Cost per Minute Played") into the DataFrame "nba_sal_clean". This df was exported using df.to_sql into our "basketball" database into a new table, "final_table".
+
 <img src="Resources/pgAdmin_final_table.png" width="400">
