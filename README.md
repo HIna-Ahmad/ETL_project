@@ -30,8 +30,7 @@ Using pandas, we loaded the sql files, "salary_clean" and "player_data" and merg
 In some cases, players appeared on duplicate rows. This was a result of being traded during the season. Only the first instance of each player was kept, and other duplicate rows were dropped. The first instance was sufficient for the analysis because salary data remained constant across duplicate instances. The dataframe was renamed "nba_sal_clean".
 
 <img src="Resources/pandas_transformative.png" width="800">
-Our group was interested in determining efficiency of players. We created new columns in the "nba_sal_clean" dataframe to analyze "Average Cost per Point" and "Cost per Minute Played". These columns allowed us to compare NBA players by salary, position, and points scored. Depending on team allocations, the player positions were combinations of "Center", "Power Forward", "Small Forward", "Shooting Guard", and "Point Guard". We renamed each variation to streamline the data into five, clearly defined positions. We calculated the average salary earned by position and visualized it as a bar chart. We then juxtaposed those averages against the top point scorers by position as a line chart.
-
+Our group was interested in determining efficiency of players. We created new columns in the "nba_sal_clean" dataframe to analyze "Average Cost per Point" and "Cost per Minute Played". These columns allowed us to compare NBA players by salary, position, and points scored. Depending on team allocations, the player positions were combinations of "Center", "Power Forward", "Small Forward", "Shooting Guard", and "Point Guard". We renamed each variation to streamline the data into five, clearly defined positions. We calculated the average salary earned by position and visualized it as a bar chart. We then juxtaposed those averages against the top point scorers by position as a line chart. 
 
 The gap in salary per point in league average by position compared to the top scorers by position was remarkable, with the average "Small Forward" being paid nearly $10,000 less per point scored than the leading Small Forward, Kawhi Leonard.
 
@@ -45,9 +44,8 @@ After cleaning and transforming our merged data in Pandas, we compiled all new d
 
 ## Contributors: ##
 Thanks to the following people who have contributed to this project:
-@AmberGershman
-@frangipani99
-@gportes24
-@HIna-Ahmad
-
+* @AmberGershman
+* @frangipani99
+* @gportes24
+* @HIna-Ahmad
 
