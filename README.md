@@ -40,7 +40,7 @@ The gap in salary per point in league average by position compared to the top sc
 
 After cleaning and transforming our merged data in Pandas, we compiled all new data compiled ("Average Cost per Point" and "Cost per Minute Played") into the DataFrame "nba_sal_clean". This dataframe was exported using df.to_sql into the "basketball" database into a new table, "final_table".
 
-<img src="Resources/pgAdmin_final_table.png" width="800">
+<img src="Resources/pgAdmin_final_table.png" width="1000">
 
 ## Contributors: ##
 Thanks to the following people who have contributed to this project:
