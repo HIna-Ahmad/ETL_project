@@ -3,11 +3,11 @@
 In this project, we analyzed National Basketball Association ("NBA") players’ 2019-20 salary and average points per game to determine which contracts were overvalued. The National Basketball Association (NBA) salary cap was set at $109.14 million for the 2019-20 season.  The salary cap is the limit to the total amount of money teams are allowed to pay their players. The purpose of the cap is to control cost and maintain competitive balance between small and large market teams.  
 
 
-Extraction:
+## Extraction: ##
 Two tables were extracted from the basketball-reference webpage(www.basketball-reference.com); player stats and player salaries for the current (2019-20) basketball season. We saved these tables in the resources folders as nba_salaries2019.csv and and player_stats.csv.
 
 
-Transformation:
+## Transformation: ##
 After looking at the dataset and determining which column values were relevant to our thesis we created  a dataframe to reflect this
 
 We pulled the nba_salaries2019.csv file into a dataframe ("contract_data") and removed all columns except: Player, Team, and Salary (see csv file "Salary_clean" in the Resources folder. We pulled the player_stats.csv file into a dataframe ("player_data") (see csv file "stat2019_clean" in the Resources folder). 
