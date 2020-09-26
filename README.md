@@ -7,10 +7,12 @@ Two tables were extracted from the [basketball-reference](http://www.basketball-
 <img src="Resources/contract_data.png" width="400">
 
 Using pandas in python we selected only the columns we needed and saved them as "stat2019_clean.csv" and "salary_clean.csv".
+
 <img src="Resources/player_salary_columns.png" width="400">
 <img src="Resources/player_stats_columns.png" width="400">
 
 In PostgreSQL we created a database "basketball" along with two tables "stats" and "salary". We imported the csv files into the tables/database. 
+
 <img src="Resources/pgAdmin_salary.png" width="400">
 <img src="Resources/pgAdmin_stats.png" width="400">
 
