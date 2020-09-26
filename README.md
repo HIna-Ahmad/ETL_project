@@ -1,10 +1,10 @@
 # ETL_project
 
-In this project, we analyzed National Basketball Association ("NBA") players’ 2019-20 salary and average points per game to determine which contracts were overvalued. The National Basketball Association (NBA) salary cap was set at $109.14 million for the 2019-20 season.  The salary cap is the limit to the total amount of money teams are allowed to pay their players. The purpose of the cap is to control cost and maintain competitive balance between small and large market teams.  
+In this project, we analyzed National Basketball Association ("NBA") players’ 2019-20 salary and average points per game to determine which contracts were overvalued. The NBA salary cap was set at $109.14 million for the 2019-20 season. The salary cap is the limit to the total amount of money teams are allowed to pay their players. The purpose of the cap is to control cost and maintain competitive balance between small and large market teams.  
 
 
 ## Extraction: ##
-Two tables were extracted from the basketball-reference webpage(www.basketball-reference.com); player stats and player salaries for the current (2019-20) basketball season. We saved these tables in the resources folders as nba_salaries2019.csv and and player_stats.csv.
+Two tables were extracted from the basketball-reference webpage Markup :  [basketball-reference](http://www.basketball-reference.com "Named link title")(www.basketball-reference.com); player stats https://www.basketball-reference.com/leagues/NBA_2020_totals.html and player salaries https://www.basketball-reference.com/contracts/players.html for the current (2019-20) basketball season. We saved these tables in the resources folders as nba_salaries2019.csv and and player_stats.csv.
 
 
 ## Transformation: ##
