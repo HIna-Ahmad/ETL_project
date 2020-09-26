@@ -19,7 +19,7 @@ In PostgreSQL we created a database "basketball" and created two tables "stats" 
 The nba_salaries2019.csv file was pulled into a dataframe ("contract_data") and all columns were removed except: Player, Team, and Salary (see csv file "Salary_clean" in the Resources folder). We pulled the player_stats.csv file into a dataframe ("player_data") (see csv file "stat2019_clean" in the Resources folder). 
 
 Using pandas, we loaded in the sql files, "salary_clean" and "player_data" were merged into a single dataframe ("nba_sal") with the columns: Player, Team, Position, and Salary. In some cases, players appeared on duplicate rows as a result of being traded during the season. Only the first instance of each player was kept because salary data remained constant across duplicate instances. The first instance was sufficient for the analysis and renamed as dataframe "nba_sal_clean".
-
+<img src="Resources/pgAdmin_pandas_tranfomative.png" width="400">
 ## Load: ##
 
 Our group was interested in determining efficiency of players, so using the "nba_sal_clean" dataframe, we created new columns to analyze "Average Cost per Point" and "Cost per Minute Played". These columns were able to allow us to consider 
