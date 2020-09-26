@@ -21,9 +21,9 @@ The nba_salaries2019.csv file was pulled into a dataframe ("contract_data") and 
 Using pandas, we loaded in the sql files, "salary_clean" and "player_data" were merged into a single dataframe ("nba_sal") with the columns: Player, Team, Position, and Salary. In some cases, players appeared on duplicate rows as a result of being traded during the season. Only the first instance of each player was kept because salary data remained constant across duplicate instances. The first instance was sufficient for the analysis and renamed as dataframe "nba_sal_clean".
 
 <img src="Resources/pandas_transformative.png" width="400">
-
+Our group was interested in determining efficiency of players, so using the "nba_sal_clean" dataframe, we created new columns to analyze "Average Cost per Point" and "Cost per Minute Played". These columns allowed us to consider NBA players by how much they earned based on productivity. Depending on team allocations, the player positions were jumbled combinations of "Center", "Power Forward", "Small Forward", "Shooting Guard", and "Point Guard". We renamed each variation to streamline the data into five, clearly defined positions. Using these positions, we calculated the average salary earned based on position, then juxtaposed those averages against the top point scorers by position. The gap in salary per point in league average by position compared to the top scorers by position was remarkable, with the average "Small Forward" being paid nearly $10,000 less per point scored than the leading Small Forward, Kawhi Leonard.
 
 ## Load: ##
 
-Our group was interested in determining efficiency of players, so using the "nba_sal_clean" dataframe, we created new columns to analyze "Average Cost per Point" and "Cost per Minute Played". These columns were able to allow us to consider 
+After cleaning and transforming our merged data in Pandas, we compiled all new data compiled ("Average Cost per Point" and "Cost per Minute Played") into the DataFrame "nba_sal_clean". This df was exported using df.to_sql into our "basketball" database into a new table, "final_table".
 <img src="Resources/pgAdmin_final_table.png" width="400">
