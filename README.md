@@ -12,7 +12,7 @@ After looking at the dataset and determining which column values were relevant t
 
 We pulled the nba_salaries2019.csv file into a dataframe ("contract_data") and removed all columns except: Player, Team, and Salary (see csv file "Salary_clean" in the Resources folder. We pulled the player_stats.csv file into a dataframe ("player_data") (see csv file "stat2019_clean" in the Resources folder). 
 
-Using postgressql, the tables were merged into a single dataframe ("nba_sal") with the columns: Player, Team, Position, and Salary. In some cases, players appeared on duplicate rows as a result of being traded during the season. All duplicate instances were dropped, and only the first instance was kept because salary data remain constant.
+Using postgressql, the tables were merged into a single dataframe ("nba_sal") with the columns: Player, Team, Position, and Salary. In some cases, players appeared on duplicate rows as a result of being traded during the season. Only the first instance of each player was kept because salary data remained constant, which was sufficient for the analysis (saved as dataframe "nba_sal_clean").
 
 
 
