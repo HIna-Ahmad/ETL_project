@@ -31,7 +31,7 @@ In some cases, players appeared on duplicate rows. This was a result of being tr
 
 <img src="Resources/pandas_transformative.png" width="800">
 Our group was interested in determining efficiency of players. We created new columns in the "nba_sal_clean" dataframe to analyze "Average Cost per Point" and "Cost per Minute Played". These columns allowed us to compare NBA players by salary, position, and points scored. 
-* Depending on team allocations, the player positions were combinations of "Center", "Power Forward", "Small Forward", "Shooting Guard", and "Point Guard". We renamed each variation to streamline the data into five, clearly defined positions. 
+Markup : * Depending on team allocations, the player positions were combinations of "Center", "Power Forward", "Small Forward", "Shooting Guard", and "Point Guard". We renamed each variation to streamline the data into five, clearly defined positions. 
 * We calculated the average salary earned by position and visualized it as a bar chart.
 * We then juxtaposed those averages against the top point scorers by position as a line chart.
 
