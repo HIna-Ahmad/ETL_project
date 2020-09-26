@@ -4,7 +4,7 @@ In this project, we analyzed National Basketball Association ("NBA") players’ 
 
 
 ## Extraction: ##
-Two tables were extracted from the [basketball-reference](http://www.basketball-reference.com) webpage; player stats [player stats](https://www.basketball-reference.com/leagues/NBA_2020_totals.html) and player salaries [player stats](https://www.basketball-reference.com/contracts/players.html) for the current (2019-20) basketball season. We saved these tables in the resources folders as nba_salaries2019.csv and and player_stats.csv.
+Two tables were extracted from the [basketball-reference](http://www.basketball-reference.com) webpage; [player stats](https://www.basketball-reference.com/leagues/NBA_2020_totals.html) and [player salaries](https://www.basketball-reference.com/contracts/players.html) for the current (2019-20) basketball season. We saved these tables in the resources folders as nba_salaries2019.csv and and player_stats.csv.
 
 
 ## Transformation: ##
